@@ -1,0 +1,23 @@
+{
+  "name": "reactjs_ecommerce",
+  "version": "1.0.0",
+  "description": "ReactJS eCommerce",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tsvGithub/ReactJS_eCommerce.git"
+  },
+  "keywords": [
+    "react",
+    "ecommerce"
+  ],
+  "author": "tsv",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tsvGithub/ReactJS_eCommerce/issues"
+  },
+  "homepage": "https://github.com/tsvGithub/ReactJS_eCommerce#readme"
+}
