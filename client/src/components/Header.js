@@ -9,9 +9,6 @@ function Header() {
         <h2>eCommerce</h2>
       </Link>
       <Link to="/cart">
-        {/* <i className="ri-shopping-cart-line ri-fw ri-2x"></i> */}
-        {/* <i class="ri-shopping-cart-line"></i> */}
-
         <FiShoppingCart className="react-icons" />
       </Link>
     </header>
