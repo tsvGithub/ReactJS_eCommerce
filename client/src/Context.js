@@ -51,6 +51,8 @@ function ContextProvider({ children }) {
         removeFromCart,
         emptyCart,
       }}
+      // style={{ outlineWidth: 0 }}
+      style={{ outline: "none" }}
     >
       {children}
     </Context.Provider>

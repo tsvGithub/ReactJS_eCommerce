@@ -6,7 +6,7 @@ function Cart() {
   const [buttonText, setButtonText] = useState("Place Order");
   const { cartItems, emptyCart } = useContext(Context);
   // console.log(cartItems);
-  const cartItemElements = cartItems.map((item) => <CartItem key={item.id} item={item} />);
+  const cartItemElements = cartItems.map((item) => <CartItem style={{ outline: "none" }} key={item.id} item={item} />);
 
   const totalCost = 5.99 * cartItems.length;
   const totalCostDisplay = totalCost.toLocaleString("en-US", { style: "currency", currency: "USD" });

@@ -1,3 +1,4 @@
+/*****************************/
 :root {
   --black: #150605;
   --red: #ea453c;
@@ -11,15 +12,79 @@ body {
   font-family: "Oswald", sans-serif;
   margin: 0;
   padding: 0;
-  outline: transparent;
-  border: transparent;
+}
+*,
+*:focus,
+*:active,
+*:hover,
+*:visited,
+*:focus-visible,
+*:focus-within,
+*:focus:not(:focus-visible),
+*::before,
+*::after {
+  /* box-shadow: none;
+  outline: 0;
+  outline: 0 !important;
+  border: 0; 
+ box-shadow: 0 0 0 0 rgba(0, 0, 0, 0) !important;
+  outline: 0.1vw transparent;
+  border: 0.1vw solid transparent; */
+  outline: 0;
+  border: 0;
+  box-shadow: none;
 }
 
+/****************/
+/* a:active,
+a:focus,
+a:hover {
+  outline: none;
+}
+
+input,
+textarea {
+  outline: none;
+}
+input:active,
+textarea:active {
+  outline: none;
+}
+:hover {
+  outline: none;
+}
+:focus {
+  outline: none;
+}
+textarea {
+  resize: none;
+}
+textarea {
+  resize: vertical;
+}
+textarea {
+  resize: horizontal;
+}
+
+button:active,
+button:focus {
+  outline: none !important;
+}
+button::-moz-focus-inner {
+  border: 0 !important;
+} */
+
+/****************************************/
 .react-icons {
   vertical-align: middle;
   height: 2.5rem;
   width: 2.5rem;
+  outline: 0;
 }
+/* .react-icons:focus {
+  outline: 0 !important;
+  box-shadow: none;
+} */
 
 main.photos {
   padding: 10px;
