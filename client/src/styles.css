@@ -35,61 +35,17 @@ body {
   box-shadow: none;
 }
 
-/****************/
-/* a:active,
-a:focus,
-a:hover {
-  outline: none;
-}
-
-input,
-textarea {
-  outline: none;
-}
-input:active,
-textarea:active {
-  outline: none;
-}
-:hover {
-  outline: none;
-}
-:focus {
-  outline: none;
-}
-textarea {
-  resize: none;
-}
-textarea {
-  resize: vertical;
-}
-textarea {
-  resize: horizontal;
-}
-
-button:active,
-button:focus {
-  outline: none !important;
-}
-button::-moz-focus-inner {
-  border: 0 !important;
-} */
-
-/****************************************/
 .react-icons {
   vertical-align: middle;
   height: 2.5rem;
   width: 2.5rem;
   outline: 0;
 }
-/* .react-icons:focus {
-  outline: 0 !important;
-  box-shadow: none;
-} */
 
 main.photos {
   padding: 10px;
   display: grid;
-  grid-gap: 2px;
+  grid-gap: 0.5rem;
   grid-auto-rows: 100px;
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   grid-auto-flow: dense;
@@ -212,6 +168,7 @@ header {
 
 a {
   text-decoration: none;
+  color: var(--light-blue);
 }
 
 a:visited {

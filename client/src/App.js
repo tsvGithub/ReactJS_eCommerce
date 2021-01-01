@@ -1,5 +1,7 @@
 import React from "react";
+//2 React Router---------
 import { Switch, Route } from "react-router-dom";
+//------------------------
 import Header from "./components/Header";
 import Cart from "./pages/Cart";
 import Photos from "./pages/Photos";
