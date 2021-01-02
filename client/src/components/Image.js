@@ -4,7 +4,7 @@ import React, { useState, useContext } from "react";
 import { Context } from "../Context";
 //11
 import PropTypes from "prop-types";
-
+//icons
 import { BsHeart } from "react-icons/bs";
 import { BsHeartFill } from "react-icons/bs";
 import { MdAddShoppingCart } from "react-icons/md";
